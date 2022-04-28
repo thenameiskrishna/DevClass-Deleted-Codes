@@ -1,0 +1,58 @@
+/*  Defoult Styling */
+ html{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ header h1{
+     font-weight: 400;
+ }
+ /* Desendent selectors combinator */
+ header{
+     display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+ }
+ nav{
+     width: 20rem;
+     /* Positioning me position proporty(Relative) humko allow krti 
+     hai ki hum isko manually move kara skte hain apne hisab se (importan proporty hai 
+     (Means we can move this from his default position)*/
+     position: relative;
+     top: 1rem;
+     right: 3rem;
+ }
+ ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ li{
+     list-style: none;
+     font-size: 1.5rem;
+ }
+ .showcase_img{
+     width: 95vw;
+     margin:1rem;
+ }
+ article{
+     display: flex;
+ }
+ .container{
+     text-align: center;
+     margin:2rem;
+     padding: 2rem;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ footer{
+     display: flex;
+     background-color: black;
+     color: aliceblue;
+     justify-content: center;
+     align-content: center;
+     font-size: 1rem;
+ }
+ a:hover{
+     color: brown;
+     font-size: 2rem;
+ }
